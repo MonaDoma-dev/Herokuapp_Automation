@@ -1,0 +1,16 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HerokuApp Full Suite">
+
+<!--    <listeners>-->
+<!--        <listener class-name="Listeners.CustomExecutionListener" />-->
+<!--    </listeners>-->
+
+    <test name="All 20 Test Cases - Complete POM Implementation">
+        <classes>
+            <class name="Tests.HerokuApp20Tests" />
+        </classes>
+    </test>
+
+</suite>
